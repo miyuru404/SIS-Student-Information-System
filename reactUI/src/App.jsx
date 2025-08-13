@@ -11,7 +11,7 @@ async function searchStudent(studentId, setStudent, setError) {
     setError("");
     setStudent(null);
 
-    const response = await fetch(`http://localhost:8080/students/${studentId.trim()}`);
+    const response = await fetch(`http://https://sis-backend.onrender.com/students/${studentId.trim()}`);
     if (!response.ok) {
       throw new Error("Student not found");
     }
