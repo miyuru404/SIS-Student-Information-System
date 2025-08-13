@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
-
+//gse
 // Function to search student by ID (outside App)
 async function searchStudent(studentId, setStudent, setError) {
   try {
