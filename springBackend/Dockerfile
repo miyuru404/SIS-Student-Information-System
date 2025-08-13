@@ -23,4 +23,4 @@ RUN ./mvnw clean package -DskipTests
 EXPOSE 8080
 
 # Run the jar
-CMD ["java", "-jar", "target/demoSpring.jar"]
+CMD ["java", "-jar", "demoSpring-0.0.1-SNAPSHOT.jar"]
